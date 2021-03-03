@@ -2,6 +2,9 @@
 # Distributed under the terms of the Modified BSD License.
 FROM jupyter/scipy-notebook
 
+USER root
+RUN sudo apt-get update
+
 LABEL maintainer="ErGenziana <edoardopiccari@gmail.com>"
 
 # Install Tensorflow
