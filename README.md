@@ -6,13 +6,12 @@ Docker compose with custom DockerFile for Data Science and Computer Vision purpo
  
  # Next steps for AWS GPU Instances and Local GPU
  
-- [x] OpenCV + Tensorflow (done)
-- [ ] NVIDIA Container Toolkit
-- [ ] CUDA
-- [ ] Detectron2
-- [ ] YoloV5
-- [ ] Plotly 
-
+- [x] OpenCV + Tensorflow (done) - tags 0.1
+- [ ] Plotly - tags 0.2
+- [ ] NVIDIA Container Toolkit - tags nvidia_toolkit
+- [ ] CUDA - tags nvidia_toolkit
+- [ ] Detectron2 - tags detectron2
+- [ ] YoloV5 - tags yolo5
 
 # List of libreries
 
