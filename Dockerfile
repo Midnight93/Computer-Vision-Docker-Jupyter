@@ -10,9 +10,10 @@ RUN pip install --quiet --no-cache-dir \
     'tensorflow==2.4.1' && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
+    
+RUN apt-get install -y gnupg2    
 
 RUN apt install -y nvidia-cuda-toolkit
-
 
 COPY cuda-ubuntu1804.pin cuda-ubuntu1804.pin
 
