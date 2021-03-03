@@ -2,6 +2,7 @@ FROM ubuntu:18.04
 
 USER root
 RUN  apt-get update
+RUN  apt install python3-pip
 
 LABEL maintainer="ErGenziana <edoardopiccari@gmail.com>"
 
