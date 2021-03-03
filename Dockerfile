@@ -13,7 +13,7 @@ RUN pip install --quiet --no-cache-dir \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
     
-RUN apt install nvidia-cuda-toolkit    
+RUN apt install -y nvidia-cuda-toolkit 
 
 #CUDNN PART#
 
