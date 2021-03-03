@@ -1,0 +1,8 @@
+cython
+numpy
+pandas
+matplotlib
+lxml
+tensorflow
+opencv-contrib-python
+scikit-learn

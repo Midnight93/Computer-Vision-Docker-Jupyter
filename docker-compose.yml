@@ -1,0 +1,28 @@
+version:  '3'
+
+services:
+  innovationlab:
+     image: innovationlab
+     build:  
+       context: .
+       dockerfile: Dockerfile
+     volumes:
+        - jupyter-work:/home/jovyan/work
+        - jupyter-datasets:/home/jovyan/work/datasets
+        - jupyter-modules:/home/jovyan/work/modules
+        - jupyter-notebook:/etc/ssl/notebook
+     environment:
+        - JUPYTER_TOKEN=easy
+        - PASSWORD=password
+     ports:
+        - ${PORT}:8888
+     container_name: jupyter_notebook
+     command: "start-notebook.sh \
+        --NotebookApp.password=${ACCESS_TOKEN} \
+        --NotebookApp.certfile=/etc/ssl/notebook/jupyter.pem"
+volumes:
+  jupyter-work:
+  jupyter-datasets:
+  jupyter-modules:
+  jupyter-notebook:
+      
