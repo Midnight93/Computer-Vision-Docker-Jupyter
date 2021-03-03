@@ -15,7 +15,7 @@ services:
         - JUPYTER_TOKEN=easy
         - PASSWORD=password
      ports:
-        - 8080:80
+        - 80:8888
      container_name: jupyter_notebook
      command: "start-notebook.sh \
         --NotebookApp.password=${ACCESS_TOKEN} \
