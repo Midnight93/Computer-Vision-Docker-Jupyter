@@ -35,6 +35,8 @@ Scikit-learn | https://scikit-learn.org/
 
 # Usage
 
+    localhost:80/tree
+
 ## Start
 
     docker-compose up -d
