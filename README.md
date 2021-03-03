@@ -6,9 +6,9 @@ Docker compose with custom DockerFile for Data Science and Computer Vision purpo
  
  # Next steps
 - [x] OpenCV + Tensorflow
-- [] Detectron2
-- [] YoloV5
-- [] Plotly 
+- [ ] Detectron2
+- [ ] YoloV5
+- [ ] Plotly 
 
 
 # List of libreries
