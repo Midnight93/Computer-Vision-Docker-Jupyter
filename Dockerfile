@@ -1,6 +1,4 @@
-# Copyright (c) Jupyter Development Team.
-# Distributed under the terms of the Modified BSD License.
-FROM jupyter/scipy-notebook
+FROM ubuntu:18.04
 
 USER root
 RUN  apt-get update
