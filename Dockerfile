@@ -2,6 +2,7 @@ FROM jupyter/scipy-notebook
 
 USER root
 RUN  apt-get update
+RUN  apt install software-properties-common
 
 LABEL maintainer="ErGenziana <edoardopiccari@gmail.com>"
 
