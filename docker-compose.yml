@@ -15,11 +15,13 @@ services:
         - JUPYTER_TOKEN=easy
         - PASSWORD=password
      ports:
-        - ${PORT}:8888
+        - 8080:80
      container_name: jupyter_notebook
      command: "start-notebook.sh \
         --NotebookApp.password=${ACCESS_TOKEN} \
         --NotebookApp.certfile=/etc/ssl/notebook/jupyter.pem"
+     restart: always
+     
 volumes:
   jupyter-work:
   jupyter-datasets:
