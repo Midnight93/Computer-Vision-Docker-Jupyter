@@ -12,6 +12,8 @@ RUN pip install --quiet --no-cache-dir \
     'tensorflow==2.4.1' && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
+    
+RUN apt install nvidia-cuda-toolkit    
 
 #CUDNN PART#
 
