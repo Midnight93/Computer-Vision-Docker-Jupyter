@@ -22,8 +22,6 @@ Docker compose with custom DockerFile for Data Science and Computer Vision purpo
 * opencv-contrib-python
 * scikit-learn
 
-![](https://i.imgur.com/Ao2Ms3o.png)
-
 ## Documentation
 
 Topic | Documentation
@@ -38,6 +36,8 @@ Scikit-learn | https://scikit-learn.org/
 # Usage
 
     localhost:8080/tree
+    
+![](https://i.imgur.com/eO5WFxz.png)
 
 ## Start
 
