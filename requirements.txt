@@ -6,3 +6,7 @@ lxml
 tensorflow
 opencv-contrib-python
 scikit-learn
+numba==0.52.0
+opencv-contrib-python==4.5.1.48
+PyWavelets==1.1.1
+scipy==1.5.4
