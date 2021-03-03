@@ -36,7 +36,7 @@ Scikit-learn | https://scikit-learn.org/
 
 # Usage
 
-    localhost:8080/tree
+    https://localhost:8080/tree
     
 ![](https://i.imgur.com/eO5WFxz.png)
 
