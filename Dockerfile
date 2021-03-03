@@ -1,8 +1,7 @@
-FROM ubuntu:18.04
+FROM jupyter/scipy-notebook
 
 USER root
 RUN  apt-get update
-RUN  apt install -y python3-pip
 
 LABEL maintainer="ErGenziana <edoardopiccari@gmail.com>"
 
