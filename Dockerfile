@@ -25,7 +25,7 @@ RUN mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600 && \
 
 COPY nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
 
-RUN apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb \
+RUN apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb && \
     apt-get update
 
 RUN apt-get install --no-install-recommends nvidia-driver-450
