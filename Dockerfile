@@ -28,7 +28,7 @@ COPY nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb nvidia-machine-le
 RUN apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb && \
     apt-get update
 
-RUN apt-get install --no-install-recommends nvidia-driver-450
+RUN apt-get install -y --no-install-recommends nvidia-driver-450
 
 COPY libnvinfer7_7.1.3-1+cuda11.0_amd64.deb libnvinfer7_7.1.3-1+cuda11.0_amd64.deb
 
