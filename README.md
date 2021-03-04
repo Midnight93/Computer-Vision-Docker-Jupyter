@@ -7,6 +7,7 @@ Docker compose with custom DockerFile for Data Science and Computer Vision purpo
  # Next steps for AWS GPU Instances and Local GPU
  
 - [x] OpenCV + Tensorflow (done) - **tag:** 0.1
+- [x] Gym - **tag:** gym_testing --> gym_stable
 - [ ] Plotly - **tag:** 0.2
 - [ ] NVIDIA Container Toolkit - **tag:** nvidia_toolkit
 - [ ] CUDA - **tag:** nvidia_toolkit
