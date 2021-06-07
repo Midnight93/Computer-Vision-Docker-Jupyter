@@ -9,3 +9,4 @@ scikit-learn
 numba==0.52.0
 PyWavelets==1.1.1
 scipy==1.5.4
+dash
