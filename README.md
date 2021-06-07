@@ -8,7 +8,7 @@ Docker compose with custom DockerFile for Data Science and Computer Vision purpo
  
 - [x] OpenCV + Tensorflow (done) - **tag:** 0.1
 - [x] Gym - **tag:** gym_testing --> gym_stable
-- [ ] Plotly - **tag:** 0.2
+- [x] Plotly - **tag:** 0.2
 - [ ] NVIDIA Container Toolkit - **tag:** nvidia_toolkit
 - [ ] CUDA - **tag:** nvidia_toolkit
 - [ ] Detectron2 - **tag:** detectron2
